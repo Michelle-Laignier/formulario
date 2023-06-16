@@ -1,0 +1,57 @@
+@media screen and (max-width:768px){
+    form {
+        width: 75%;
+    }
+
+    button {
+        padding: 1.25rem 0;
+        width: -webkit-fill-available;
+    }
+}
+
+@media screen and (max-width:708px){
+    .container {
+        flex-direction: column;
+        width: 200%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .date {
+        flex-direction: column;
+    }
+
+    #date {
+        margin-right: 0;
+    }
+
+    .date-width1,
+    .date-width2 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #mentorname {
+        width: -webkit-fill-available;
+    }
+
+    .boxcheck {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #check {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    fieldset {
+        padding: 0 1rem;
+    }
+
+    form {
+        width: 85%;
+    }
+}

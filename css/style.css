@@ -1,0 +1,60 @@
+:root {
+    --black: #293241;
+    --blue: #BFD7E4;
+    --pink: #F67669;
+    --white: #FFFFFF;
+
+    font-size: 62.5%; /* 10px */
+
+    --text: 'Poppins', sans-serif;
+    --title: 'Staatliches', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--blue);
+    font-family: var(--text);
+    min-height: 250vh;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+header {
+    background-color: var(--black);
+    color: var(--white);
+    height: 46.5rem;
+    padding-top: 6.6rem;
+}
+
+header h1 {
+    font-family: var(--title);
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+header p {
+    margin: 1rem 0 2rem;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white);
+}
+   
+::-webkit-scrollbar-thumb {
+    background-color: var(--pink);
+    border-radius: 8px;
+}

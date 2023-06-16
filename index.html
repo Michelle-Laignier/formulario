@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/img1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/medias.css">
+    <title>Mentoria | avaliação</title>
+</head>
+<body>
+    <header>
+        <h1>avalie a sua mentoria</h1>
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+        <img src="./img/img1.png"
+        alt="Imagem de um balão contendo 5 estrelas, sendo 3 delas preenchidas">
+    </header>
+
+    <main>
+        <form action="">
+            <h2>Informações pessoais</h2>
+
+            <fieldset>
+                <div class="container">
+                    <div class="box box-width">
+                        <label for="firstname">Nome</label>
+                        <input type="text" name="firstname" id="firstname">
+                    </div>
+                    <div class="box box-width">
+                        <label for="lastname">Sobrenome</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <label for="email">Email <span>(digite um email válido)</span></label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </fieldset>
+
+            <fieldset class="fieldset1">
+                <legend>Informações do mentor</legend>
+                <div class="box">
+                    <label for="mentorname">Selecione quem foi o seu mentor</label>
+                    <input type="text" name="mentorname" id="mentorname">
+                </div>
+
+                <div class="box">
+                    <label for="textarea">Feedback sobre o mentor</label>
+                    <input type="text" name="textarea" id="textarea">
+                </div>
+
+                <div class="boxcheck">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="date">
+                <legend>Agendando próxima mentoria</legend>
+                <div class="box date-width1">
+                    <label for="date">Data</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div class="box date-width2">
+                    <label for="timefrom">Das</label>
+                    <input type="time" name="timefrom" id="timefrom">
+                </div>
+                <div class="box date-width2">
+                    <label for="timeto">Até</label>
+                    <input type="time" name="timeto" id="timeto">
+                </div>
+            </fieldset>
+            <button>Salvar</button>
+        </form>
+    </main>
+</body>
+</html> 
