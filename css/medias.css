@@ -54,4 +54,18 @@
     form {
         width: 85%;
     }
+
+
+    .container {
+        width: auto;
+    }
+
+    .box,
+    .box-width {
+        width: 100%;
+    }
+
+    #label-check {
+        margin-top: 1rem;
+    }
 }

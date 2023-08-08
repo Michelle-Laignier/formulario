@@ -49,7 +49,13 @@
                 <legend>Informações do mentor</legend>
                 <div class="box">
                     <label for="mentorname">Selecione quem foi o seu mentor</label>
-                    <input type="text" name="mentorname" id="mentorname" required>
+                    <select name="mentorname" id="mentorname" required>
+                        <option id="empty-option"></option>
+                        <option value="mentor1">Mentor 1</option>
+                        <option value="mentor2">Mentor 2</option>
+                        <option value="mentor3">Mentor 3</option>
+                        <option value="mentor4">Mentor 4</option>
+                    </select>
                 </div>
 
                 <div class="box">
@@ -59,7 +65,7 @@
 
                 <div class="boxcheck">
                     <input type="checkbox" name="check" id="check">
-                    <label for="check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    <label for="check" id="label-check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
                 </div>
             </fieldset>
 
