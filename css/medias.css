@@ -3,6 +3,15 @@
         width: 75%;
     }
 
+    .container {
+        width: auto;
+    }
+
+    .box,
+    .box-width {
+        width: 100%;
+    }
+
     button {
         padding: 1.25rem 0;
         width: -webkit-fill-available;
@@ -12,11 +21,23 @@
 @media screen and (max-width:708px){
     .container {
         flex-direction: column;
-        width: 200%;
     }
 }
 
 @media screen and (max-width:600px){
+    .boxcheck {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #check {
+        margin: 0;
+    }
+
+    #label-check {
+        margin-top: 1rem;
+    }
+
     .date {
         flex-direction: column;
     }
@@ -35,15 +56,6 @@
     #mentorname {
         width: -webkit-fill-available;
     }
-
-    .boxcheck {
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #check {
-        margin: 0;
-    }
 }
 
 @media screen and (max-width:375px) {
@@ -53,19 +65,5 @@
 
     form {
         width: 85%;
-    }
-
-
-    .container {
-        width: auto;
-    }
-
-    .box,
-    .box-width {
-        width: 100%;
-    }
-
-    #label-check {
-        margin-top: 1rem;
     }
 }
