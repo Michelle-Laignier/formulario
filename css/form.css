@@ -21,7 +21,7 @@ h2 {
 }
 
 fieldset {
-    padding: 0 4rem;
+    padding: 0 2rem;
 }
 
 form label {
@@ -48,7 +48,7 @@ input {
     font-size: 1.8rem;
     height: 5.5rem;
     padding-left: 1rem;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 
 input:hover,
